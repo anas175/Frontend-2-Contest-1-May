@@ -8,6 +8,7 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
+  
    arr.map((item) => {
           if (item.marks > 50) {
             console.log(item.name);
