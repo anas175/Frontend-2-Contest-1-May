@@ -8,6 +8,12 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
+   arr.map((item) => {
+          if (item.marks > 50) {
+            console.log(item.name);
+          }
+        });
+ 
 }
 
 function PrintStudentsbyForEach() {
@@ -16,12 +22,22 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
+    arr.push({ id: 4, name: "susan", age: "20", marks: 45 });
+        console.log(arr);
 }
 
 function removeFailedStudent() {
   //Write your code here, just console.log
+   arr = arr.filter((item) => item.marks < 50);
+        console.log(arr);
 }
 
 function concatenateArray() {
   //Write your code here, just console.log
+    let arr = [
+          { id: 5, name: "anas", age: "24", marks: 87 },
+          { id: 6, name: "adnan", age: "22", marks: 70 },
+          { id: 7, name: "arslan", age: "15", marks: 75 },
+        ];
+        console.log(arr);
 }
