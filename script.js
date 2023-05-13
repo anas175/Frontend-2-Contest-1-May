@@ -15,22 +15,26 @@ function PrintStudentswithMap() {
         });
  
 }
+PrintStudentswithMap();
 
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
 }
+PrintStudentsbyForEach();
 
 function addData() {
   //Write your code here, just console.log
     arr.push({ id: 4, name: "susan", age: "20", marks: 45 });
         console.log(arr);
 }
+addData();
 
 function removeFailedStudent() {
   //Write your code here, just console.log
    arr = arr.filter((item) => item.marks < 50);
         console.log(arr);
 }
+removeFailedStudent();
 
 function concatenateArray() {
   //Write your code here, just console.log
@@ -41,3 +45,4 @@ function concatenateArray() {
         ];
         console.log(arr);
 }
+concatenateArray();
